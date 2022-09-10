@@ -1698,10 +1698,11 @@ box-shadow:  5px 5px 10px #747474,
 .contact-section{
     width: 100%;
     padding: 30px 0;
+    background-color: #F8F5F0;
 }
 .contact-row{
     width: 100%;
-    display: fle;
+    display: flex;
     flex-wrap: wrap;
 }
 .contact-info{
@@ -1724,4 +1725,20 @@ box-shadow:  5px 5px 10px #747474,
 .title-heading{
     color: #343a40;
     font-size: 22px;
+    padding: 7px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.contact-form{
+    width: 50%;
+}
+.form-top-row{
+    width: 100%;
+    display: flex;
+}
+.full-name{
+    width: 50%;
+}
+.form-email{
+    width: 50%;
 }
