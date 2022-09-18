@@ -1714,6 +1714,7 @@ box-shadow:  5px 5px 10px #747474,
 .info-title{
     margin-bottom: 10px;
     color: #343a40;
+    font-size: 22px;
 }
 .info-text{
     margin: 15px 0;
@@ -1725,14 +1726,17 @@ box-shadow:  5px 5px 10px #747474,
 .title-heading{
     color: #343a40;
     font-size: 22px;
-    padding: 7px 0;
+    padding: 30px 0;
     font-weight: 600;
     text-transform: capitalize;
 }
 .contact-form{
     width: 50%;
 }
-.form-top-row{
+.form-top{
+    width: 100%;
+}
+.from-top-row{
     width: 100%;
     display: flex;
 }
@@ -1741,4 +1745,84 @@ box-shadow:  5px 5px 10px #747474,
 }
 .form-email{
     width: 50%;
+}
+.full-name label {
+    display: block;
+    margin: 20px 0;
+}
+.form-email label {
+    display: block;
+    margin: 20px 0;
+    
+}
+.full-name input{
+    padding: 10px 0;
+    border: none;
+    width: 95%;
+    border-radius: 5px;
+}
+.form-email input{
+    padding: 10px 0;
+    border: none;
+    width: 95%;
+    border-radius: 5px;
+}
+.form-subject{
+    margin: 10px 0;
+}
+.form-subject label{
+    display: block;
+    margin: 20px 0;
+}
+.form-subject input{
+    width: 100%;
+    padding: 10px 0;
+    border:none;
+    border-radius: 5px;
+}
+.form-massage{
+    width: 100%;
+}
+.rtect{
+    display: block;
+    margin: 20px 0;
+}
+.text-fild{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.text-fild:focus{
+   outline: none;
+}
+.form-button{
+    padding: 20px 0;
+}
+.form-btn{
+    padding: 15px;
+    font-weight: 700;
+    background-color: #53b141;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: 1s ease-in;
+}
+.form-btn:hover{
+    color: #53b141;
+    background-color: #253248;
+}
+.form-title .title-heading{
+    color: #343a40;
+    font-size: 22px;
+    padding: 7px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/*blog section*/
+.blog-section{
+    width: 100%;
+    margin: 30px 0;
 }
