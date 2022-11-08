@@ -8,16 +8,20 @@ body{
     background-color: #F8F9FA;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     color: #000;
     
 }
 p{
     font-size: 16px;
 }
-.container{
+.container-bd{
     width: 90%;
     margin: 0 auto;
+}
+.rd{
+    display: flex !important;
+    justify-content: space-between !important;
 }
 .clear{
     clear: both;
@@ -34,15 +38,20 @@ p{
 
 .header{
     width: 100%;
-    position: static;
+    position:sticky;
     top: 0;
     left: 0;
     bottom: 0;
     background-color: #253248;
+    z-index: 1000;
 }
 .header-section{
     width: 100%;
     height: 100px;
+    position:sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
    
 }
 .header-logo{
@@ -57,9 +66,11 @@ p{
 .menus{
     list-style: none;
    padding: 15px;
+   display:flex;
+   gap:15px;
 }
 .menu-links{
-    float: left;
+    
     padding: 20px;
     color: #53b141;
 }
@@ -106,6 +117,7 @@ p{
 .banner-text p{
     line-height: 30px;
     color: #fff;
+    text-align: justify;
     
 }
 .banner-button{
@@ -117,6 +129,8 @@ p{
     background-color: #fff;
     padding: 15px 30px;
     border: 2px solid #fff;
+    font-weight: 700;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: transparent;
@@ -276,10 +290,11 @@ box-shadow:  5px 5px 10px #d5d5d5,
 
 .property-card-content{
      border: 1px solid #dee2e6!important;
-     padding: 5px;
+     margin: 5px;
      border-radius: 5px;
      border-width: thin;
      background-color: #fff;
+     padding: 8px;
 }
 .property-img img{
     width: 100%;
@@ -455,7 +470,7 @@ box-shadow:  5px 5px 10px #d5d5d5,
 .middle-area-row{
     width: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .area-card{
     width: 25%;
@@ -699,7 +714,7 @@ box-shadow:  5px 5px 0 #ffffff,
    
 }
 .blog-content{
-   
+   margin: 10px;
     background-color: #ffff;
 }
 .blog-post-img img{
@@ -2254,4 +2269,128 @@ box-shadow:  5px 5px 10px #747474,
 .blog-comment-content{
     margin-bottom: 20px;
     margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .banner-img{
+        height: 380px;
+    }
+    .banner-content{
+        width: 85%;
+        padding: 20px;
+    }
+    .banner-content-section{
+        padding-top: 30px;
+    }
+    .banner-heading{
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    .banner-text{
+        padding: 0;
+    }
+    .banner-text p {
+        line-height: 27px;
+    }
+    .home-blog-section{
+        display: block;
+    }
+    .home-blog-card{
+        width: 100%;
+    }
+    .home-blog-imgbox{
+        margin: 0 auto;
+        height: 150px;
+        width:150px;
+    }
+    .home-blog-icons{
+        padding: 19px 0 0 10px;
+        font-size: 70px;
+
+    }
+    .home-blog-content{
+        text-align: center;
+    }
+    .home-blog-title h3 a{
+        font-weight: 900;
+    }
+    .property-left h1{
+        font-size: 23px;
+    }
+    .property{
+        display: block;
+    }
+    .property-card{
+        width: 100%;
+    }
+    .area-top-title{
+        width: 100%;
+    }
+    .area-top-title h1{
+        font-size: 25px;
+    }
+    .middle-area-text{
+        width: 100%;
+    }
+    .area-card{
+        width: 100%;
+    }
+    .area-card-title{
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .agent-left{
+        padding: 0;
+    }
+    .agent-right{
+     padding: 12px 0;
+    }
+    .agent-left h1{
+        font-size: 27px;
+    }
+    .agent-card{
+        width: 100%;
+    }
+    .testimonial-title h1{
+        font-size: 25px;
+    }
+    .quate-icons{
+        font-size: 40px;
+    }
+    .testimonial-content-text{
+        width: 100%;
+    }
+    .blog-post-heading h1{
+        font-size: 25px;
+    }
+    .blog-post-col{
+        width: 100%;
+    }
+    .blog-post-title{
+       font-size: 25px;
+       font-weight: 700;
+    }
+    .subscribe{
+        padding: 20px 0;
+    }
+    .subscribe-text h1{
+        font-size: 20px;
+    }
+    .subscribe-btn{
+        font-size: 10px;
+        padding: 9px 18px;
+    }
+    .footer-row{
+        flex-wrap: wrap;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-middle{
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
+    }
 }
