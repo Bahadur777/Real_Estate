@@ -474,12 +474,13 @@ box-shadow:  5px 5px 10px #d5d5d5,
 }
 .area-card{
     width: 25%;
-    padding: 20px;
+   
 }
 .area-card-section{
     background-color: #fff;
     text-align: center;
     border-radius: 5px;
+    margin:  0 10px;
 }
 .area-card-section:hover{
    
