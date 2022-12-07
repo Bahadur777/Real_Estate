@@ -275,7 +275,7 @@ box-shadow:  5px 5px 10px #d5d5d5,
 .property{
     width:100%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .property-card{
@@ -900,7 +900,7 @@ margin-bottom: 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .property-page-left{
     width: 30%;
@@ -2271,9 +2271,80 @@ box-shadow:  5px 5px 10px #747474,
     margin-bottom: 20px;
     margin-top: 10px;
 }
+@media only screen and (max-width: 320px){
+    .banner-content-section{
+        padding:20px  0 !important;
+    }
+   
+}
+@media only screen and (max-width: 425px){
+    .banner-content-section{
+        padding:45px  0 ;
+    }
+    .property-right{
+        text-align: center;
+    }
+    .middle-area{
+        margin-top: 20px !important;
+    }
+    .middle-area-section{
+       padding: 30px 0;
+    }
+    .agent-right{
+        text-align: center;
+    }
+    .testimonial-title h1{
+        font-size: 20px;
+    }
+    .testimonial-client-name{
+        font-size: 20px;
+    }
+    .banner-heading h1{
+        font-size: 20px;
+    }
+    .area-top-title h1{
+        font-size: 20px;
+    }
+    .agent-left h1{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .property-number, .mega-number, .awards-number, .clients-number{
+        font-size: 20px;
+    }
+    .counting-property-text span{
+        font-size: 15px;
+    }
+    .popuplar-property-title{
+        padding: 10px 0;
+    }
+    .popuplar-property-title h1{
+        font-size: 20px;
+    }
+    .property-top{
+        padding: 0 !important;
+    }
+    .blog-post-heading h1{
+        font-size: 20px;
+    }
+    .blog-post-title{
+        padding: 10px 10px !important;
+    }
+    .blog-post-title span{
+        font-size: 20px;
+    }
 
+    .blog-card{
+        width: 100%;
+    }
 
+   
+
+}
 @media only screen and (max-width: 600px) {
+    .middle-hr{
+        width: 15%;
+    }
     .banner-img{
         height: 380px;
     }
@@ -2393,5 +2464,211 @@ box-shadow:  5px 5px 10px #747474,
     }
     .footer-right{
         width: 100%;
+    }
+    .property-card-container{
+        padding-right: 0;
+    }
+    .home-blog{
+        margin-top: 40px;
+    }
+    .area-card-section{
+        margin: 3px 10px;
+    }
+    .agent-section{
+        padding: 16px 0;
+    }
+
+    /*about page*/
+    .about-content{
+        padding: 20px 0;
+    }
+    .about-section{
+        padding: 10px 0;
+    }
+    .about-left{
+     width: 100%;
+    }
+    .alf-title{
+        line-height: 40px;
+        font-size: 20px;
+    }
+    .about-right{
+        width: 100%;
+    }
+    .about-right-main{
+        padding: 0 10px;
+    }
+    .main-card-content{
+        padding: 0;
+    }
+    .card-type-title{
+        padding: 10px;
+    }
+     /*property page*/
+     .property-page{
+        padding: 20px 0;
+    }
+    .property-page-left{
+        width: 100%;
+    }
+    .property-page-right{
+        width: 100%;
+    }
+    .property-page-card{
+        width: 100%;
+    }
+    .blog-right-section{
+        display: none;
+    }
+    .blog-content-section{
+        width: 100%;
+    }
+    .blog-card{
+        width: 50%;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .banner-img{
+        height: 400px;
+    }
+    .banner-content-section{
+        padding-top: 40px;
+    }
+    .banner-content{
+        width: 80%;
+        padding: 40px 40px;
+    }
+    .banner-heading{
+        padding-bottom: 15px;
+    }
+    .home-blog-section{
+        flex-wrap: wrap;
+    }
+    .home-blog{
+        margin-top: 10px;
+    }
+    .home-blog-card{
+        width: 50%;
+    }
+    .property-card{
+        width: 100%;
+    }
+    .area-card{
+        width: 50%;
+    }
+    .area-card-title h5{
+        font-size: 23px;
+    }
+    .agent-right{
+       padding-top: 20px;
+    }
+    .agent-card{
+    width: 50%;
+    }
+    .blog-post-col{
+        width: 100%;
+    }
+    .property-page{
+        padding: 20px 0;
+    }
+    .property-page-left{
+        width: 100%;
+    }
+    .property-page-right{
+        width: 100%;
+    }
+    .property-page-card{
+        width: 100%;
+    }
+    .blog-card{
+        width: 50%;
+    }
+    .blog-right-section{
+        display: none;
+    }
+    .blog-content-section{
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px){
+    .middle-hr{
+        width: 20%;
+    }
+    .home-blog-card{
+        width: 25%;
+    }
+    .property-card{
+        width: 50%;
+    }
+    .area-card{
+        margin-bottom: 20px;
+    }
+    .middle-area-section{
+        padding: 20px 0;
+    }
+    .area-top-title{
+        width: 100%;
+    }
+    .middle-area-text{
+        width: 100%;
+    }
+    .agent-section{
+        padding: 20px 0;
+    }
+    .quate-icons{
+        padding: 20px 0;
+    }
+    .blog-post-col{
+        width: 33%;
+    }
+
+    .property-page-card{
+        width: 50%;
+    }
+    .blog-right-section{
+        display: block;
+    }
+    .blog-content-section{
+        width: 60%;
+    }
+    .blog-right-section{
+        width: 40%;
+    }
+    .contact-info{
+        width: 50%;
+    }
+    .contact-form{
+        width: 50%;
+    }
+    
+}
+@media only screen and (min-width: 1024px){
+    .property-card{
+        width: 33%;
+    }
+    .area-card{
+        width: 25%;
+    }
+    .agent-card{
+        width: 25%;
+    }
+    .property-page-left{
+        width: 30%;
+    }
+    .property-page-right{
+        width: 70%;
     }
 }
